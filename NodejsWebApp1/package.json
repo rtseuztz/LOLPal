@@ -4,7 +4,6 @@
   "description": "NodejsWebApp1",
   "scripts": {
     "build": "webpack-cli ./public/app.tsx --config webpack-config.js",
-    "clean": "tsc --public --clean",
     "start": "node server"
   },
   "author": {
