@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-web-app1",
+  "version": "0.0.0",
+  "description": "NodejsWebApp1",
+  "scripts": {
+    "build": "webpack-cli ./public/app.tsx --config webpack-config.js",
+    "clean": "tsc --public --clean",
+    "start": "node server"
+  },
+  "author": {
+    "name": ""
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.7",
+    "typescript": "^4.5.4"
+  },
+  "engines": {
+    "node": "^8.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "needle": "^3.0.0",
+    "path": "^0.12.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "ts-loader": "^9.2.6",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
