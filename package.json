@@ -7,7 +7,7 @@
     "url": "git+https://github.com/rtseuztz/LOLPal.git"
   },
   "scripts": {
-    "build": "webpack-cli ./public/app.tsx --config webpack-config.js",
+    "build": "webpack-cli ./NodejsWebApp1/public/app.tsx --config webpack-config.js",
     "start": "node server"
   },
   "author": "",
