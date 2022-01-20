@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "webpack-cli ./NodejsWebApp1/public/app.tsx --config ./NodejsWebApp1/webpack-config.js",
-    "start": "node server"
+    "start": "node ./NodejsWebApp1/server"
   },
   "author": "",
   "devDependencies": {
