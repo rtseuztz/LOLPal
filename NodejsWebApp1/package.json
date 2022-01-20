@@ -2,6 +2,10 @@
   "name": "nodejs-web-app1",
   "version": "1.0.0",
   "description": "NodejsWebApp1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rtseuztz/LOLPal.git"
+  }
   "scripts": {
     "build": "webpack-cli ./public/app.tsx --config webpack-config.js",
     "start": "node server"
