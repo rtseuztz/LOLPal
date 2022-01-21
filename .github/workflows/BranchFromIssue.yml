@@ -1,4 +1,4 @@
-# Make an issue
+# Make branch from an issue
 on:
   # The issues event below is only needed for the default (auto) mode,
   # you can remove it otherwise
