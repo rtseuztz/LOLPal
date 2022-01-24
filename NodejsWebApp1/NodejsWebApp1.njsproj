@@ -31,7 +31,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="public\index.css" />
+    <Content Include="public\riot.html">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="public\tools.js" />
+    <Content Include="riot.txt" />
     <Content Include="webpack-config.js">
       <SubType>Code</SubType>
     </Content>
@@ -53,6 +57,9 @@
       <SubType>Code</SubType>
     </TypeScriptCompile>
     <TypeScriptCompile Include="public\GameClasses.tsx" />
+    <TypeScriptCompile Include="public\riot.tsx">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>
