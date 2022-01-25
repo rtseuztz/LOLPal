@@ -111,7 +111,7 @@ class CommentBox extends React.Component {
     getLeftTab() {
 
     }
-
+    //delete this comment
     getGameRows() {
         let games = this.state.games;
 

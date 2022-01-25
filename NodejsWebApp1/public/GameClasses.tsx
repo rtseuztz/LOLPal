@@ -37,7 +37,7 @@ export module GameModule {
                 })
             } else {
                 this.setState({
-                    expand: " expand"
+                    expand: "expand"
                 })
             }
 
@@ -46,7 +46,7 @@ export module GameModule {
             return (
                 <div className={"gameFacade " + this.props.win + this.state.expand} onClick={this.handleClick}>
                     <div className="gameDisplay">
-                        <img className="championIcon" src={"DataDragon/img/champion/" + this.props.championIcon + ".png"} />
+                        <img className="championIcon" src={"champion/" + this.props.championIcon + ".png"} />
                         <div className="gameStats">{this.props.gameStats}</div>
                         <div className="gameDate">{this.props.gameDate}</div>
                     </div>
@@ -82,7 +82,7 @@ export module GameModule {
             return (
                 <div className="participantRight">
                     <div className="summonerName">{this.props.summonerName}</div>
-                    <img className="championIcon" src={"DataDragon/img/champion/" + this.props.championIcon + ".png"} />
+                    <img className="championIcon" src={"champion/" + this.props.championIcon + ".png"} />
                 </div>
             );
         }
@@ -97,7 +97,7 @@ export module GameModule {
         render() {
             return (
                 <div className="participantLeft">
-                    <img className="championIcon" src={"DataDragon/img/champion/" + this.props.championIcon + ".png"} />
+                    <img className="championIcon" src={"champion/" + this.props.championIcon + ".png"} />
                     <div className="summonerName">{this.props.summonerName}</div>
                 </div>
             );
