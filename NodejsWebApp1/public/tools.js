@@ -11,7 +11,7 @@ var path = require('path');
 //var es = require('event-stream');
 //var loadJsonFile = require('load-json-file');
 //var { loadJsonFile } = require('load-json-file');
-let key = "RGAPI-f2f9b200-f036-49d3-a30c-0d495c7af705";
+let key = "RGAPI-51c97fc7-77c5-419f-9398-3edae348adf7";
 
 
 async function riotCall(queryString) {
