@@ -21,6 +21,7 @@
     <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
     <NodejsPort>1337</NodejsPort>
     <EnableTypeScript>true</EnableTypeScript>
+	 <TypeScriptCompileBlocked>false</TypeScriptCompileBlocked>
     <StartWebBrowser>true</StartWebBrowser>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -30,6 +31,164 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="public\champion\Aatrox.png" />
+    <Content Include="public\champion\Ahri.png" />
+    <Content Include="public\champion\Akali.png" />
+    <Content Include="public\champion\Akshan.png" />
+    <Content Include="public\champion\Alistar.png" />
+    <Content Include="public\champion\Amumu.png" />
+    <Content Include="public\champion\Anivia.png" />
+    <Content Include="public\champion\Annie.png" />
+    <Content Include="public\champion\Aphelios.png" />
+    <Content Include="public\champion\Ashe.png" />
+    <Content Include="public\champion\AurelionSol.png" />
+    <Content Include="public\champion\Azir.png" />
+    <Content Include="public\champion\Bard.png" />
+    <Content Include="public\champion\Blitzcrank.png" />
+    <Content Include="public\champion\Brand.png" />
+    <Content Include="public\champion\Braum.png" />
+    <Content Include="public\champion\Caitlyn.png" />
+    <Content Include="public\champion\Camille.png" />
+    <Content Include="public\champion\Cassiopeia.png" />
+    <Content Include="public\champion\Chogath.png" />
+    <Content Include="public\champion\Corki.png" />
+    <Content Include="public\champion\Darius.png" />
+    <Content Include="public\champion\Diana.png" />
+    <Content Include="public\champion\Draven.png" />
+    <Content Include="public\champion\DrMundo.png" />
+    <Content Include="public\champion\Ekko.png" />
+    <Content Include="public\champion\Elise.png" />
+    <Content Include="public\champion\Evelynn.png" />
+    <Content Include="public\champion\Ezreal.png" />
+    <Content Include="public\champion\Fiddlesticks.png" />
+    <Content Include="public\champion\Fiora.png" />
+    <Content Include="public\champion\Fizz.png" />
+    <Content Include="public\champion\Galio.png" />
+    <Content Include="public\champion\Gangplank.png" />
+    <Content Include="public\champion\Garen.png" />
+    <Content Include="public\champion\Gnar.png" />
+    <Content Include="public\champion\Gragas.png" />
+    <Content Include="public\champion\Graves.png" />
+    <Content Include="public\champion\Gwen.png" />
+    <Content Include="public\champion\Hecarim.png" />
+    <Content Include="public\champion\Heimerdinger.png" />
+    <Content Include="public\champion\Illaoi.png" />
+    <Content Include="public\champion\Irelia.png" />
+    <Content Include="public\champion\Ivern.png" />
+    <Content Include="public\champion\Janna.png" />
+    <Content Include="public\champion\JarvanIV.png" />
+    <Content Include="public\champion\Jax.png" />
+    <Content Include="public\champion\Jayce.png" />
+    <Content Include="public\champion\Jhin.png" />
+    <Content Include="public\champion\Jinx.png" />
+    <Content Include="public\champion\Kaisa.png" />
+    <Content Include="public\champion\Kalista.png" />
+    <Content Include="public\champion\Karma.png" />
+    <Content Include="public\champion\Karthus.png" />
+    <Content Include="public\champion\Kassadin.png" />
+    <Content Include="public\champion\Katarina.png" />
+    <Content Include="public\champion\Kayle.png" />
+    <Content Include="public\champion\Kayn.png" />
+    <Content Include="public\champion\Kennen.png" />
+    <Content Include="public\champion\Khazix.png" />
+    <Content Include="public\champion\Kindred.png" />
+    <Content Include="public\champion\Kled.png" />
+    <Content Include="public\champion\KogMaw.png" />
+    <Content Include="public\champion\Leblanc.png" />
+    <Content Include="public\champion\LeeSin.png" />
+    <Content Include="public\champion\Leona.png" />
+    <Content Include="public\champion\Lillia.png" />
+    <Content Include="public\champion\Lissandra.png" />
+    <Content Include="public\champion\Lucian.png" />
+    <Content Include="public\champion\Lulu.png" />
+    <Content Include="public\champion\Lux.png" />
+    <Content Include="public\champion\Malphite.png" />
+    <Content Include="public\champion\Malzahar.png" />
+    <Content Include="public\champion\Maokai.png" />
+    <Content Include="public\champion\MasterYi.png" />
+    <Content Include="public\champion\MissFortune.png" />
+    <Content Include="public\champion\MonkeyKing.png" />
+    <Content Include="public\champion\Mordekaiser.png" />
+    <Content Include="public\champion\Morgana.png" />
+    <Content Include="public\champion\Nami.png" />
+    <Content Include="public\champion\Nasus.png" />
+    <Content Include="public\champion\Nautilus.png" />
+    <Content Include="public\champion\Neeko.png" />
+    <Content Include="public\champion\Nidalee.png" />
+    <Content Include="public\champion\Nocturne.png" />
+    <Content Include="public\champion\Nunu.png" />
+    <Content Include="public\champion\Olaf.png" />
+    <Content Include="public\champion\Orianna.png" />
+    <Content Include="public\champion\Ornn.png" />
+    <Content Include="public\champion\Pantheon.png" />
+    <Content Include="public\champion\Poppy.png" />
+    <Content Include="public\champion\Pyke.png" />
+    <Content Include="public\champion\Qiyana.png" />
+    <Content Include="public\champion\Quinn.png" />
+    <Content Include="public\champion\Rakan.png" />
+    <Content Include="public\champion\Rammus.png" />
+    <Content Include="public\champion\RekSai.png" />
+    <Content Include="public\champion\Rell.png" />
+    <Content Include="public\champion\Renekton.png" />
+    <Content Include="public\champion\Rengar.png" />
+    <Content Include="public\champion\Riven.png" />
+    <Content Include="public\champion\Rumble.png" />
+    <Content Include="public\champion\Ryze.png" />
+    <Content Include="public\champion\Samira.png" />
+    <Content Include="public\champion\Sejuani.png" />
+    <Content Include="public\champion\Senna.png" />
+    <Content Include="public\champion\Seraphine.png" />
+    <Content Include="public\champion\Sett.png" />
+    <Content Include="public\champion\Shaco.png" />
+    <Content Include="public\champion\Shen.png" />
+    <Content Include="public\champion\Shyvana.png" />
+    <Content Include="public\champion\Singed.png" />
+    <Content Include="public\champion\Sion.png" />
+    <Content Include="public\champion\Sivir.png" />
+    <Content Include="public\champion\Skarner.png" />
+    <Content Include="public\champion\Sona.png" />
+    <Content Include="public\champion\Soraka.png" />
+    <Content Include="public\champion\Swain.png" />
+    <Content Include="public\champion\Sylas.png" />
+    <Content Include="public\champion\Syndra.png" />
+    <Content Include="public\champion\TahmKench.png" />
+    <Content Include="public\champion\Taliyah.png" />
+    <Content Include="public\champion\Talon.png" />
+    <Content Include="public\champion\Taric.png" />
+    <Content Include="public\champion\Teemo.png" />
+    <Content Include="public\champion\Thresh.png" />
+    <Content Include="public\champion\Tristana.png" />
+    <Content Include="public\champion\Trundle.png" />
+    <Content Include="public\champion\Tryndamere.png" />
+    <Content Include="public\champion\TwistedFate.png" />
+    <Content Include="public\champion\Twitch.png" />
+    <Content Include="public\champion\Udyr.png" />
+    <Content Include="public\champion\Urgot.png" />
+    <Content Include="public\champion\Varus.png" />
+    <Content Include="public\champion\Vayne.png" />
+    <Content Include="public\champion\Veigar.png" />
+    <Content Include="public\champion\Velkoz.png" />
+    <Content Include="public\champion\Vex.png" />
+    <Content Include="public\champion\Vi.png" />
+    <Content Include="public\champion\Viego.png" />
+    <Content Include="public\champion\Viktor.png" />
+    <Content Include="public\champion\Vladimir.png" />
+    <Content Include="public\champion\Volibear.png" />
+    <Content Include="public\champion\Warwick.png" />
+    <Content Include="public\champion\Xayah.png" />
+    <Content Include="public\champion\Xerath.png" />
+    <Content Include="public\champion\XinZhao.png" />
+    <Content Include="public\champion\Yasuo.png" />
+    <Content Include="public\champion\Yone.png" />
+    <Content Include="public\champion\Yorick.png" />
+    <Content Include="public\champion\Yuumi.png" />
+    <Content Include="public\champion\Zac.png" />
+    <Content Include="public\champion\Zed.png" />
+    <Content Include="public\champion\Zeri.png" />
+    <Content Include="public\champion\Ziggs.png" />
+    <Content Include="public\champion\Zilean.png" />
+    <Content Include="public\champion\Zoe.png" />
+    <Content Include="public\champion\Zyra.png" />
     <Content Include="public\index.css" />
     <Content Include="public\riot.html">
       <SubType>Code</SubType>
@@ -51,6 +210,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="public\" />
+    <Folder Include="public\champion\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="public\app.tsx">

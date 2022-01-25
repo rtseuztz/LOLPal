@@ -37,7 +37,7 @@ export module GameModule {
                 })
             } else {
                 this.setState({
-                    expand: " expand"
+                    expand: "expand"
                 })
             }
 
