@@ -18,7 +18,8 @@ class CommentBox extends React.Component {
             champions: {},
             user: {},
         };
-
+        this.searchUser = this.searchUser.bind(this);
+        this.handleKeyDown = this.handleKeyDown.bind(this);
         this.handleClick = this.handleClick.bind(this);
         this.handleChange = this.handleChange.bind(this);
         this.getUser = this.getUser.bind(this);
@@ -82,6 +83,14 @@ class CommentBox extends React.Component {
         })
     }
     handleClick(e, data) {
+        this.searchUser();
+    }
+    handleKeyDown(event) {
+        if (event.key == 'Enter') {
+            this.searchUser();
+        }
+    }
+    searchUser() {
         //let inputName = event.target.value
         let inputName = this.state.inputName;
         var t = this;
@@ -111,7 +120,6 @@ class CommentBox extends React.Component {
     getLeftTab() {
 
     }
-    //delete this comment
     getGameRows() {
         let games = this.state.games;
 
@@ -201,9 +209,9 @@ class CommentBox extends React.Component {
 
         return (
             <div className="contentBox">
-                <header id="header">WPGG
+                <header id="header">LOLPal
                     <div htmlFor="summoner_name_input" id="summoner_name_input_label">Enter your summoner name</div>
-                    <input id="summoner_name_input" name="summonerNameInput" onChange={this.handleChange} />
+                    <input id="summoner_name_input" name="summonerNameInput" onChange={this.handleChange} onKeyDown={this.handleKeyDown}/>
                     <button onClick={this.handleClick}>Search</button>
 
                 </header>
