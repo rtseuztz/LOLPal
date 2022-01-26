@@ -12,7 +12,7 @@ import * as interfaces from "./interfaces";
 //var es = require('event-stream');
 //var loadJsonFile = require('load-json-file');
 //var { loadJsonFile } = require('load-json-file');
-var key: string = "RGAPI-51c97fc7-77c5-419f-9398-3edae348adf7";
+var key: string = "RGAPI-36d5ae98-0ed7-42a9-9c9c-b59026c903f2";
 
 
 module.exports = {
