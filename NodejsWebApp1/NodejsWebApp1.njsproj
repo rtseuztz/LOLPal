@@ -216,6 +216,9 @@
       <SubType>Code</SubType>
     </TypeScriptCompile>
     <TypeScriptCompile Include="public\GameClasses.tsx" />
+    <TypeScriptCompile Include="public\interfaces.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
     <TypeScriptCompile Include="public\riot.tsx">
       <SubType>Code</SubType>
     </TypeScriptCompile>
