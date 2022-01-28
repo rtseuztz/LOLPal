@@ -12,7 +12,7 @@ import * as interfaces from "./interfaces";
 //var es = require('event-stream');
 //var loadJsonFile = require('load-json-file');
 //var { loadJsonFile } = require('load-json-file');
-var key: string = "RGAPI-36d5ae98-0ed7-42a9-9c9c-b59026c903f2";
+var key: string = "RGAPI-f7b50214-9f57-4928-9d52-2519070b053a";
 
 
 module.exports = {
@@ -76,6 +76,7 @@ async function getGameInfo(gameID: string): Promise<object> {
             if (res.statusCode != 200) {
                 /*await delay(5000); //THIS DOES NOT WORK!
                 return getGameInfo(gameID)*/
+                return ""
             }
             else {
                 return res.body;

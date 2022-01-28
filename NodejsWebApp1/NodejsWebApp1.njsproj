@@ -190,6 +190,7 @@
     <Content Include="public\champion\Zoe.png" />
     <Content Include="public\champion\Zyra.png" />
     <Content Include="public\index.css" />
+    <Content Include="public\leaguepic!.png" />
     <Content Include="public\riot.html">
       <SubType>Code</SubType>
     </Content>

@@ -95,7 +95,7 @@ class CommentBox extends React.Component {
         let inputName = this.state.inputName;
         var t = this;
         this.getUser(inputName, function (user) {
-            if (user == "Error") return false;
+            if (!user || user == "Error") return false;
             let currentGames = [];
             t.loadGames(user.puuid, function (gameList) {
                 if (gameList == "Error") return false;
