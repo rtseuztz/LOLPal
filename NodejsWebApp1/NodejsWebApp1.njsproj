@@ -191,6 +191,7 @@
     <Content Include="public\champion\Zyra.png" />
     <Content Include="public\index.css" />
     <Content Include="public\leaguepic!.png" />
+    <Content Include="public\leaguepic2.png" />
     <Content Include="public\riot.html">
       <SubType>Code</SubType>
     </Content>
@@ -209,6 +210,7 @@
     <Content Include="tsconfig.json" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="testing\" />
     <Folder Include="public\" />
     <Folder Include="public\champion\" />
   </ItemGroup>
@@ -225,6 +227,10 @@
     </TypeScriptCompile>
     <TypeScriptCompile Include="public\tools.ts">
       <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="testing\tools.test.ts">
+      <SubType>Code</SubType>
+      <TestFramework>ExportRunner</TestFramework>
     </TypeScriptCompile>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
