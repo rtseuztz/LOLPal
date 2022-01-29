@@ -192,6 +192,8 @@
     <Content Include="public\index.css" />
     <Content Include="public\leaguepic!.png" />
     <Content Include="public\leaguepic2.png" />
+    <Content Include="public\leaguepic3.jpg" />
+    <Content Include="public\leaguepic4.png" />
     <Content Include="public\riot.html">
       <SubType>Code</SubType>
     </Content>
@@ -228,9 +230,9 @@
     <TypeScriptCompile Include="public\tools.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
-    <TypeScriptCompile Include="testing\tools.test.ts">
+    <TypeScriptCompile Include="testing\toolsTest.ts">
       <SubType>Code</SubType>
-      <TestFramework>ExportRunner</TestFramework>
+      <TestFramework>Mocha</TestFramework>
     </TypeScriptCompile>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />

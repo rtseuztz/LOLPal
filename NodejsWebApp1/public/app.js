@@ -169,8 +169,7 @@ class CommentBox extends React.Component {
         return (React.createElement("div", { className: "contentBox" },
             React.createElement("header", { id: "header" },
                 "LOLPal",
-                React.createElement("div", { htmlFor: "summoner_name_input", id: "summoner_name_input_label" }, "Enter your summoner name"),
-                React.createElement("input", { id: "summoner_name_input", name: "summonerNameInput", onChange: this.handleChange, onKeyDown: this.handleKeyDown }),
+                React.createElement("input", { id: "summoner_name_input", name: "summonerNameInput", placeholder: "Search for a player...", onChange: this.handleChange, onKeyDown: this.handleKeyDown }),
                 React.createElement("button", { onClick: this.handleClick }, "Search")),
             this.getGameRows()));
     }

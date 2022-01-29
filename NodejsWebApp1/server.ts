@@ -5,7 +5,6 @@ var express = require('express');
 var http = require('http');
 var tools = require('./public/tools');
 var app = express();
-var key = "RGAPI-18bb5ead-7a9e-4ff8-abcc-c07c86a52b22";
 var needle = require('needle');
 var staticPath = path.join(__dirname, '/');
 //const SERVER_URL = process.env.SERVER_URL;

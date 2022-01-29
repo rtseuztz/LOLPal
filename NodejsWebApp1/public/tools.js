@@ -22,7 +22,7 @@ var path = require('path');
 //var es = require('event-stream');
 //var loadJsonFile = require('load-json-file');
 //var { loadJsonFile } = require('load-json-file');
-var key = "RGAPI-f7b50214-9f57-4928-9d52-2519070b053a";
+var key = "RGAPI-535a3705-372c-4cf7-99ff-30cb730b1e7d";
 module.exports = {
     processGet: function (req) {
         return __awaiter(this, void 0, void 0, function* () {

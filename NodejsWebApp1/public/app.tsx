@@ -209,9 +209,9 @@ class CommentBox extends React.Component {
 
         return (
             <div className="contentBox">
-                <header id="header">LOLPal
-                    <div htmlFor="summoner_name_input" id="summoner_name_input_label">Enter your summoner name</div>
-                    <input id="summoner_name_input" name="summonerNameInput" onChange={this.handleChange} onKeyDown={this.handleKeyDown}/>
+                <header id="header">LOLPal{/*
+                    <div htmlFor="summoner_name_input" id="summoner_name_input_label">Enter your summoner name</div>*/}
+                    <input id="summoner_name_input" name="summonerNameInput" placeholder="Search for a player..." onChange={this.handleChange} onKeyDown={this.handleKeyDown}/>
                     <button onClick={this.handleClick}>Search</button>
 
                 </header>

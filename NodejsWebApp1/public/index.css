@@ -52,24 +52,49 @@ button.accept-policy {
     font-size: 1rem;
     line-height: inherit;
 }*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #0b000b;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+}
 body {
-    background-color: #210a30;
-    background-image: url("leaguepic2.png");
-    background-blend-mode: saturation;
+    background-color: #210a3087;
+    background-image: url("leaguepic4.png");
+    background-blend-mode: color-dodge;
+    background-attachment: fixed;
 }
 .contentBox #header {
-    height: 10%;/*
+    height: 10%; /*
     background-color:#100920;*/
-    color:#888888;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: #888888;
     text-align: center;
-    position:fixed;
+    position: fixed;
     top: 0px;
-    left: 0px;
-    right: 0px;
+    background: #41115aa3;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
 }
 #summoner_name_input {
     border-radius: 20px;
-    color: #888888;
+    color: #420a0a;
+    font-family: system-ui;
+    font-variant: petite-caps;
     box-shadow: 0 0 0 1pt #888888;
     outline: none;
     transition: .1s;
@@ -77,10 +102,18 @@ body {
     #summoner_name_input:focus {
         box-shadow: 0 0 3pt 2pt violet;
     }
+input#summoner_name_input::placeholder {
+    color: #420a0a;
+    font-family: system-ui;
+    font-variant: petite-caps;
+}
 #summoner_name_input_label {
     color: #888888;
 }
-
+button {
+    border-radius: 20px;
+    width: 50%;
+}
 .contentBox {
     display: flex;
     flex-direction: column;
