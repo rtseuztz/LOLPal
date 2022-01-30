@@ -11,7 +11,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 //var sqlFile = require('./sql');
 //var sql = require('mssql');
-require('dotenv').config();
 var needle = require('needle');
 var _ = require('lodash');
 //var tar = require('tar-stream');
@@ -23,7 +22,7 @@ var path = require('path');
 //var es = require('event-stream');
 //var loadJsonFile = require('load-json-file');
 //var { loadJsonFile } = require('load-json-file');
-var key = process.env.api_key;
+var key = "RGAPI-ec9f7a1a-7ab7-4903-8eb6-2224f746d0ed";
 module.exports = {
     processGet: function (req) {
         return __awaiter(this, void 0, void 0, function* () {

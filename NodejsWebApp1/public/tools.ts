@@ -1,6 +1,5 @@
 //var sqlFile = require('./sql');
 //var sql = require('mssql');
-require('dotenv').config()
 var needle = require('needle');
 var _ = require('lodash');
 //var tar = require('tar-stream');

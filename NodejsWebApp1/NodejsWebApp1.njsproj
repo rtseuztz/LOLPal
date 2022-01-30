@@ -31,9 +31,6 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include=".env">
-      <SubType>Code</SubType>
-    </Content>
     <Content Include="public\champion\Aatrox.png" />
     <Content Include="public\champion\Ahri.png" />
     <Content Include="public\champion\Akali.png" />
@@ -193,6 +190,7 @@
     <Content Include="public\champion\Zoe.png" />
     <Content Include="public\champion\Zyra.png" />
     <Content Include="public\index.css" />
+    <Content Include="public\leaguebackground.png" />
     <Content Include="public\leaguepic!.png" />
     <Content Include="public\leaguepic2.png" />
     <Content Include="public\leaguepic3.jpg" />
