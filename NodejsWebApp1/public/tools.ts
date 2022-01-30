@@ -1,5 +1,6 @@
 //var sqlFile = require('./sql');
 //var sql = require('mssql');
+require('dotenv').config()
 var needle = require('needle');
 var _ = require('lodash');
 //var tar = require('tar-stream');
@@ -86,7 +87,10 @@ async function getGameInfo(gameID: string): Promise<object> {
             return "";
         })
 }
-function getGameIDs(query) {
+/*
+ * Retrieve a list of gameIDs
+ */
+function getGameIDs(query: interfaces.Query) {
     let puuid = query.puuid;
     let queryString = "https://americas.api.riotgames.com/lol/match/v5/matches/by-puuid/" + puuid + "/ids?start=0&count=19&api_key=" + key;
     return Get(queryString);

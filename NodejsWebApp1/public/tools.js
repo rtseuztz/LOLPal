@@ -11,6 +11,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 //var sqlFile = require('./sql');
 //var sql = require('mssql');
+require('dotenv').config();
 var needle = require('needle');
 var _ = require('lodash');
 //var tar = require('tar-stream');
@@ -22,7 +23,7 @@ var path = require('path');
 //var es = require('event-stream');
 //var loadJsonFile = require('load-json-file');
 //var { loadJsonFile } = require('load-json-file');
-var key = "RGAPI-535a3705-372c-4cf7-99ff-30cb730b1e7d";
+var key = process.env.api_key;
 module.exports = {
     processGet: function (req) {
         return __awaiter(this, void 0, void 0, function* () {
@@ -102,6 +103,9 @@ function getGameInfo(gameID) {
         });
     });
 }
+/*
+ * Retrieve a list of gameIDs
+ */
 function getGameIDs(query) {
     let puuid = query.puuid;
     let queryString = "https://americas.api.riotgames.com/lol/match/v5/matches/by-puuid/" + puuid + "/ids?start=0&count=19&api_key=" + key;

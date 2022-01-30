@@ -20,6 +20,8 @@
     "node": "^8.0.0"
   },
   "dependencies": {
+    "dotenv": "^14.3.2",
+    "dotenv-cli": "^4.1.1",
     "express": "^4.17.2",
     "jest": "^27.4.7",
     "jquery": "^3.6.0",

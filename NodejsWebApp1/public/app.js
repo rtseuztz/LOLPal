@@ -9,9 +9,9 @@ class CommentBox extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            name: "name!",
+            name: "",
             inputName: "",
-            level: "LEvel",
+            level: "",
             games: [],
             champions: {},
             user: {},
