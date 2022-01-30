@@ -11,9 +11,9 @@ class CommentBox extends React.Component {
 
         super(props);
         this.state = {
-            name: "name!",
+            name: "",
             inputName: "",
-            level: "LEvel",
+            level: "",
             games: [],
             champions: {},
             user: {},
@@ -62,7 +62,7 @@ class CommentBox extends React.Component {
             }
         })
     }
-    loadGames(puuid, callback) {
+    loadGames(puuid: string, callback: Function) {
         $.ajax({
             type: "GET",
             url: "/api",
@@ -92,7 +92,7 @@ class CommentBox extends React.Component {
     }
     searchUser() {
         //let inputName = event.target.value
-        let inputName = this.state.inputName;
+        let inputName:string = this.state.inputName;
         var t = this;
         this.getUser(inputName, function (user) {
             if (!user || user == "Error") return false;
